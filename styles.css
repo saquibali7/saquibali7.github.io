@@ -7,23 +7,28 @@ a:link {
     text-decoration: none;
 }
 
+
 .MainContainer {
     background-color: #f1f1f1;
     padding: 30px;
     display: flex;
     flex-direction: row;
+    
 }
 
 .image{
     margin: 40px;
     margin-left: 200px;
     padding: 20px;
-}
+} 
 
 .about{
     font-size: 17px;
     font-weight:normal;
     width: 50%;
 }
-
-/* level TextArea class with image class */
+.experience{
+    font-size: 16px;
+    font-weight:normal;
+    width: 70%;
+}
