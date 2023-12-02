@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS\styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Saquib Ali</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets\favicon.ico">
 </head>
 
 <body>
@@ -15,7 +16,8 @@
         <div class="image">
             <h2
                 style="text-align:center; text-decoration:rgba(100, 148, 237, 0.811), solid; margin-right: 4.2em; margin-bottom: 0.5em;">
-                <a href="">Saquib Ali</a></h2>
+                <a href="">Saquib Ali</a>
+            </h2>
             <img src="assets\saquib.jpeg" alt="Saquib Ali" align="center "
                 style="margin-left: 0em; margin-bottom: 0em; width: 60%; border-radius: 140px;"></img>
             <div
@@ -25,28 +27,47 @@
                     href="https://www.linkedin.com/in/saquib-ali-89aa14202/"><i class='fa fa-linkedin'></i> linkedin</a>
                 <br />
                 <a href="https://scholar.google.com/citations?user=cFbTsIcAAAAJ&hl=en"><i
-                        class="ai ai-google-scholar"></i>
-                    google scholar</a>
+                        class="ai ai-google-scholar"></i> google scholar</a>
+            </div>
+            <div style="margin-top: 2em; margin-right: 11em; margin-bottom: 2em; text-align: center">
+                <a href="#about-me">About Me</a>
+                <br />
+                <a href="#experience">Experience</a>
+                <br />
+                <a href="#publications">Publications</a>
+                <br />
+                <a href="#accomplishments">Accomplishments</a>
+                <br />
+                <a href="assets\SaquibCV.pdf" target="_blank">CV</a>
+                <br />
             </div>
 
         </div>
         <div class="about">
-            <div class="about-me">
+            <div class="about-me" id="about-me">
                 <h6 style="text-decoration:dimgray;">I am a final year undergraduate student pursuing a
                     degree in Computer Engineering at Jamia Millia Islamia,
                     New Delhi. Through my academic journey and hands-on experiences,
                     I have developed a keen passion for machine learning,
-                    particularly in the domain of computer vision.
+                    particularly in the domain of computer vision.</h6>
+                <h6>
+                    During my academic tenure, I delved into various areas within computer science,
+                    but it was the intricate challenges presented by machine learning that captivated
+                    me the most. My research interest revolves around machine learning and deep
+                    learning, with a specific focus on computer vision. This interest has evolved since
+                    my second year, and I have fortified my knowledge through rigorous coursework,
+                    including artificial intelligence, computer vision, and data mining, undertaken
+                    during my current 7th semester.
                 </h6>
             </div>
             <hr style="width: 70%;">
-            <div class="experience">
+            <div class="experience" id="experience">
 
                 <h3 style="font-weight: bold;">Experience</h3>
                 <p>
                 <ul>
                     <li>
-                        <h5> Summer Intern at IIIT Allahabad (June 2022 - August 2022)</h5>
+                        <h5 style="font-weight:bold;"> Summer Intern at IIIT Allahabad (June 2022 - August 2022)</h5>
                         <h6>
                             Worked on the problem related to the diagnosis of autism spectrum disorder using
                             eye-tracking data.
@@ -56,7 +77,7 @@
                         </h6>
                     </li>
                     <li>
-                        <h5>Research Intern at MixORG (September 2022 - March 2023)</h5>
+                        <h5 style="font-weight:bold;">Research Intern at MixORG (September 2022 - March 2023)</h5>
                         <h6>
                             Worked on the problem related to the selection of human blastocyst (developed stage of
                             embryo) for implantation with deep learning.
@@ -65,7 +86,7 @@
                         </h6>
                     </li>
                     <li>
-                        <h5>Research Intern at University of Bonn (June 2023 - June 2023)</h5>
+                        <h5 style="font-weight:bold;">Research Intern at University of Bonn (June 2023 - June 2023)</h5>
                         <h6>
                             Implemented the code for finding the human pose motion pattern in the video data where
                             human motion data was given in inertial measurement unit (IMU) data using KD Tree and the
@@ -77,22 +98,42 @@
                 </p>
             </div>
             <hr style="width: 70%;">
-            <div class="publications">
-                <h3 style="font-weight: bold;">publications </h3>
+            <div class="publications" id="publications">
+                <h3 style="font-weight: bold;">Publications </h3>
                 <p>
                 <ul>
                     <li style="margin: 0;">
-                        <h6>Lexical Squad@ Multimodal Hate Speech Event Detection 2023
-                            :Multimodal Hate Speech Detection using Fused Ensemble Approach</h6>
+                        <h6>Lexical Squad@ Multimodal Hate Speech Event Detection 2023:
+                            Multimodal Hate Speech Detection using Fused Ensemble Approach</h6>
                         <h6>Mohammad Kashif, Mohammad Zohair, and Saquib Ali</h6>
-                            <h6>ACL Anthology 2023, <a href="https://aclanthology.org/2023.case-1.12.pdf">[pdf]</a></h6>
+                        <h6>ACL Anthology 2023 <a href="https://aclanthology.org/2023.case-1.12.pdf">[pdf]</a></h6>
                     </li>
                     <li>
                         <h6>Master GAN: Multiple Attention is all you Need:
                             A Multiple Attention Guided Super Resolution Network for Dems</h6>
                         <h6>Azhan Mohammed, Mohammad Kashif, Md Haider Zama, Mohammed Abbas Ansari, Saquib Ali</h6>
-                        <h6>IEEE IGARSS 2023 <a href="https://ieeexplore.ieee.org/abstract/document/10283196">[pdf]</a></h6>
+                        <h6>IEEE IGARSS 2023 <a href="https://ieeexplore.ieee.org/abstract/document/10283196">[pdf]</a>
+                        </h6>
                     </li>
+            </div>
+            <hr style="width: 70%;">
+            <div class="accomplishments" id="accomplishments">
+                <h3 style="font-weight: bold;">Accomplishments </h3>
+                <p>
+                <ul>
+                    <li>
+                        <h6>DAAD WISE Scholar 2023: Received the DAAD WISE scholarship 2023 for a research
+                            internship in Germany at the University of Bonn.</h6>
+                    </li>
+                    <li>
+                        <h6>Finalist of Smart India Hackathon 2022: Producing Super Resolution of DEM (Depth
+                            Elevation Map) for problem statement of ISRO</h6>
+                    </li>
+                    <li>
+                        <h6>First position in HACK JMI 2.0 Hackathon: For making the project micro-db</h6>
+                    </li>
+                </ul>
+                </p>
             </div>
         </div>
     </div>

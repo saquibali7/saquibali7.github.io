@@ -1,0 +1,86 @@
+
+html {
+    background-color: #f1f1f1;
+    text-decoration:dimgray;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.MainContainer {
+    background-color: #f1f1f1;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+}
+
+.image{
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: fixed; /* Change this line */
+    top: 0;
+    left: 0;
+}
+
+.about{
+    font-size: 17px;
+    font-weight:normal;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+
+.experience{
+    font-size: 16px;
+    font-weight:normal;
+    width: 70%;
+}
+.about-me{
+    font-size: 16px;
+    font-weight:normal;
+    width: 70%;
+}
+
+.publications{
+    font-weight:normal;
+    width: 70%;
+}
+
+.about,
+.experience,
+.about-me,
+.publications {
+    font-weight: normal;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .about,
+    .experience,
+    .about-me,
+    .publications {
+        width: 70%;
+    }
+    .MainContainer {
+        flex-direction: row;
+        flex-flow: nowrap;
+    }
+}
+
+.about {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.experience,
+.about-me {
+    font-size: 16px;
+}
+
+.accomplishments {
+    font-size: 16px;
+    width: 70%;
+}
