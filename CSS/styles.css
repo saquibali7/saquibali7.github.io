@@ -9,6 +9,7 @@ a:link {
 }
 
 .MainContainer {
+    background-color: rgb(214,214,214);
     background-color: #f1f1f1;
     padding: 30px;
     display: flex;
@@ -35,31 +36,60 @@ a:link {
 }
 
 .experience{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: #FFF6F6;
     font-size: 16px;
     font-weight:normal;
     width: 70%;
+    padding: 20px;
 }
 .about-me{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: #FFF6F6;
     font-size: 16px;
     font-weight:normal;
     width: 70%;
+    padding: 20px;
 }
 
 .publications{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: #FFF6F6;
     font-weight:normal;
     width: 70%;
+    padding: 20px;
 }
 
 .accomplishments {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: #FFF6F6;
     width: 70%;
+    padding: 20px;
+}
+.PersonalProject{
+    border-radius: 10px;
+    width: 70%;
+    background-color: #FFF6F6;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.project-images{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
-.project-images{
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+hr{
     width: 70%;
 }
 
 @media (max-width: 600px) {
+    hr{
+        width: 100%;
+    }
     .MainContainer {
         flex-direction: column;
         width: 100%;
@@ -67,10 +97,9 @@ a:link {
     .image{
         margin-top: 30px;
         margin-left: 30px;
-        position: relative; /* Change this line */
-        width: 100%;
+        position: relative; 
         top: 0;
-        left: 0;
+        left: 50px;
     }
     .about{
         margin-left: 0px;
@@ -88,11 +117,12 @@ a:link {
     .accomplishments {
         width: 100%;
     }
-    .PersonalProjects {
+    .PersonalProject {
         width: 100%;
     }
-    .project-images{
+    .project-images {
         width: 100%;
     }
-
 }
+
+
