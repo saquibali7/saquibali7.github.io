@@ -5,12 +5,17 @@ html {
 }
 
 a:link {
+    text-decoration: #4477CE;
+}
+
+a:visited {
     text-decoration: none;
+    color:#4477CE;
 }
 
 .MainContainer {
-    background-color: rgb(214,214,214);
-    background-color: #f1f1f1;
+    /* background-color: rgb(214,214,214);
+    background-color: #f1f1f1; */
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -36,50 +41,35 @@ a:link {
 }
 
 .experience{
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    border-radius: 10px;
-    background-color: #FFF6F6;
     font-size: 16px;
     font-weight:normal;
-    width: 70%;
+    width: 80%;
     padding: 20px;
 }
 .about-me{
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    border-radius: 10px;
-    background-color: #FFF6F6;
     font-size: 16px;
     font-weight:normal;
-    width: 70%;
+    width: 80%;
     padding: 20px;
 }
 
 .publications{
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    border-radius: 10px;
-    background-color: #FFF6F6;
     font-weight:normal;
-    width: 70%;
+    width: 80%;
     padding: 20px;
 }
 
 .accomplishments {
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    border-radius: 10px;
-    background-color: #FFF6F6;
-    width: 70%;
+    width: 80%;
     padding: 20px;
 }
 .PersonalProject{
     border-radius: 10px;
-    width: 70%;
-    background-color: #FFF6F6;
+    width: 80%;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .project-images{
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 hr{
@@ -125,33 +115,9 @@ hr{
     }
 }
 
-ul, li{
-    list-style: none;
-    padding: 0;
-  }
+h6{
+    color:#61677A;
+    /* color: #445069; */
+    /* color:#647D87; */
+}
 
-  li{
-    padding-bottom: 1.5rem;
-    border-left: 1px solid #abaaed;
-    position: relative;
-    padding-left: 20px;
-    margin-left: 10px;
-    &:last-child{
-      border: 0px;
-      padding-bottom: 0;
-    }
-    &:before{
-      content: '';
-      width: 15px;
-      height: 15px;
-      background: white;
-      border: 1px solid #4e5ed3;
-      box-shadow: 3px 3px 0px #bab5f8;
-      box-shadow: 3px 3px 0px #bab5f8;
-      border-radius: 50%;
-      position: absolute;
-      left: -10px;
-      top: 0px;
-    }
-  }
-  
